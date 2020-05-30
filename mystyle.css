@@ -1,10 +1,10 @@
 /* Custom properties/variables  */
 :root {
     --main-text: white;
-    --main-primary: #008500;
-    --main-secondary: #00639c;
-    --main-tertiary: #940000;
-    --main-quadrary: #fffb00;
+    --main-primary: #648FFF;
+    --main-secondary: #DC267F;
+    --main-tertiary: #FE6100;
+    --main-quadrary: #785EF0;
   }
   
   /* Base reset */
