@@ -4,6 +4,7 @@
     --main-primary: #008500;
     --main-secondary: #00639c;
     --main-tertiary: #940000;
+    --main-quadrary: #fffb00;
   }
   
   /* Base reset */
@@ -311,8 +312,7 @@
     display: flex;
     justify-content: space-evenly;
     padding: 2rem;
-    background: var(--main-tertiary);
-    border-top: 4px solid var(--main-primary);
+    background: var(--main-quadrary);
   }
   
   footer > p {
