@@ -1,9 +1,9 @@
 /* Custom properties/variables  */
 :root {
-    --main-white: white;
-    --main-green: #008000;
-    --main-purple: #730099;
-    --main-gray: gray;
+    --main-text: white;
+    --main-primary: #008500;
+    --main-secondary: #00639c;
+    --main-tertiary: #940000;
   }
   
   /* Base reset */
@@ -73,7 +73,7 @@
     font-size: 1.8rem; /* 18px */
     font-weight: 400;
     line-height: 1.4;
-    color: var(--main-white);
+    color: var(--main-text);
   }
   
   h1,
@@ -97,7 +97,7 @@
   
   a {
     text-decoration: none;
-    color: var(--main-white);
+    color: var(--main-text);
   }
   
   img {
@@ -114,7 +114,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    background: var(--main-green);
+    background: var(--main-primary);
     box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
     z-index: 10;
   }
@@ -141,7 +141,7 @@
   }
   
   .nav-list a:hover {
-    background: var(--main-purple);
+    background: var(--main-secondary);
   }
   
   /* Welcome section */
@@ -161,7 +161,7 @@
     font-size: 3rem;
     font-weight: 200;
     font-style: italic;
-    color: var(--main-green);
+    color: var(--main-primary);
   }
   
   /* Projects section */
@@ -169,13 +169,13 @@
   .projects-section {
     text-align: center;
     padding: 10rem 2rem;
-    background: var(--main-purple);
+    background: var(--main-secondary);
   }
   
   .projects-section-header {
     max-width: 640px;
     margin: 0 auto 6rem auto;
-    border-bottom: 0.2rem solid var(--main-white);
+    border-bottom: 0.2rem solid var(--main-text);
   }
   
   @media (max-width: 28.75em) {
@@ -206,13 +206,13 @@
   }
   
   .project {
-    background: var(--main-gray);
+    background: var(--main-tertiary);
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
     border-radius: 2px;
   }
   
   .code {
-    color: var(--main-gray);
+    color: var(--main-tertiary);
     transition: color 0.3s ease-out;
   }
   
@@ -239,12 +239,12 @@
   
   .btn-show-all {
     font-size: 2rem;
-    background: var(--main-gray);
+    background: var(--main-tertiary);
     transition: background 0.3s ease-out;
   }
   
   .btn-show-all:hover {
-    background: var(--main-green);
+    background: var(--main-primary);
   }
   
   .btn-show-all:hover > i {
@@ -268,7 +268,7 @@
     width: 100%;
     height: 80vh;
     padding: 0 2rem;
-    background: var(--main-gray);
+    background: var(--main-tertiary);
   }
   
   .contact-section-header > h2 {
@@ -311,8 +311,8 @@
     display: flex;
     justify-content: space-evenly;
     padding: 2rem;
-    background: var(--main-gray);
-    border-top: 4px solid var(--main-green);
+    background: var(--main-tertiary);
+    border-top: 4px solid var(--main-primary);
   }
   
   footer > p {
