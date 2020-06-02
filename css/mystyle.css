@@ -1,10 +1,10 @@
 /* Custom properties/variables  */
 :root {
     --main-text: white;
-    --main-primary: #648FFF;
-    --main-secondary: #DC267F;
-    --main-tertiary: #FE6100;
-    --main-quadrary: #785EF0;
+    --main-primary: rgb(0, 145, 48);
+    --main-secondary: rgb(0, 105, 131);
+    --main-tertiary: rgb(64, 57, 122);
+    --main-quadrary: rgb(165, 0, 0);
   }
   
   /* Base reset */
@@ -70,7 +70,7 @@
   /* Base styles */
   
   body {
-    font-family: 'Poppins', sans-serif;
+    font-family: sans-serif;
     font-size: 1.8rem; /* 18px */
     font-weight: 400;
     line-height: 1.4;
@@ -79,7 +79,7 @@
   
   h1,
   h2 {
-    font-family: 'Raleway', sans-serif;
+    padding: 2rem;
     font-weight: 700;
     text-align: center;
   }
@@ -159,10 +159,10 @@
   }
   
   .about > p {
+    padding: 5rem;
     font-size: 3rem;
     font-weight: 200;
-    font-style: italic;
-    color: var(--main-primary);
+    color: var(--main-text);
   }
   
   /* Projects section */
