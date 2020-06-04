@@ -312,7 +312,7 @@
     display: flex;
     justify-content: space-evenly;
     padding: 2rem;
-    background: var(--main-quadrary);
+    background: var(--main-primary);
   }
   
   footer > p {
