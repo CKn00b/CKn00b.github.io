@@ -228,9 +228,10 @@ img {
   object-fit: cover;
 }
 
-.project-title {
+.project-tile {
   font-size: 2rem;
   padding: 2rem 0.5rem;
+  background-color: gray;
 }
 
 .btn {
