@@ -1,0 +1,127 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  font-family: sans-serif;
+  color: white;
+  margin-top: 30px;
+}
+
+a {
+  color: white;
+}
+
+/* navbar settings */
+#navbar {
+  overflow: hidden;
+  background-color: #343434;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+/* about section settings */
+#about {
+  text-align: left;
+  max-width: 90%;
+  padding: 30px;
+}
+
+#hello {
+  text-align: center;
+}
+
+/* interest settings */
+#interests {
+  text-align: left;
+}
+
+/* list settings */
+li {
+  margin: 1em;
+}
+
+/* project section settings */
+#projects {
+  padding: 30px;
+}
+
+/* grid settings */
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.grid > p {
+  background: #343434;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  max-width: 50%;
+  text-align: left;
+}
+
+/* contact section settings */
+#contact {
+  padding: 30px;
+}
+.contact-links {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 980px;
+  margin-top: 4rem;
+  flex-wrap: wrap;
+}
+.contact-details {
+  font-size: 2.4rem;
+  text-shadow: 2px 2px 1px #1f1f1f;
+  transition: transform 0.3s ease-out;
+}
+
+.contact-details:hover {
+  transform: translateY(8px);
+}
+
+.btn {
+  display: inline-block;
+  padding: 1rem 2rem;
+  border-radius: 2px;
+}
+
+.btn-show-all:hover > i {
+  transform: translateX(2px);
+}
+
+.btn-show-all > i {
+  margin-left: 10px;
+  transform: translateX(0);
+  transition: transform 0.3s ease-out;
+}
+
+i {
+  margin: 0.25em;
+}
+
+* {
+  scroll-behavior: smooth;
+}
