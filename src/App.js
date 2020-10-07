@@ -5,15 +5,15 @@ function App() {
   return (
     <div className="App">
       {/* This is the navbar */}
-      <nav id="navbar" class="nav">
-        <div class="nav-list">
+      <nav id="navbar">
+        <div>
           <a href="#about">About</a>
           <a href="#projects">Projects</a>
           <a href="#contact">Contact</a>
         </div>
       </nav>
       {/* This is the about section */}
-      <section id="about" class="about">
+      <section id="about">
         <h1 id="hello">Hello, world! I'm CK New.</h1>
         <p>
           I'm a software developer based in Fayetteville, NC. I love building
