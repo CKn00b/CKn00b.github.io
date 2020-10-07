@@ -1,4 +1,5 @@
 {
+  "homepage": "https://ckn00b.github.io",
   "name": "ckn00b.github.io",
   "version": "0.1.0",
   "private": true,
@@ -11,6 +12,8 @@
     "react-scripts": "3.4.3"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
